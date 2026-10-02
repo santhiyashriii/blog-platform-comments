@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BlogSpace</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><h1>✦ BlogSpace</h1><div id="user"></div></header>
+<main>
+<section id="auth" class="card"><h2>Welcome</h2><div class="tabs"><button onclick="showLogin()">Login</button><button onclick="showRegister()">Register</button></div>
+<div id="form"></div></section>
+<section id="app" style="display:none"><div class="card"><h2>Create a post</h2><input id="title" placeholder="Post title"><textarea id="content" placeholder="Write your blog..."></textarea><button onclick="createPost()">Publish</button></div><div id="posts"></div></section>
+</main><script src="app.js"></script></body></html>
